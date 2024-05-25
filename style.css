@@ -3,6 +3,7 @@
     grid-template-areas:
         'header header header'
         'sidebar content content'
+        'answers answers answers'
         'footer footer footer';
     gap: 10px;
 }
@@ -23,6 +24,13 @@
 .content {
     grid-area: content;
     background-color: #8cff8c;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.answers{
+    grid-area: answers;
+    background-color: azure;
     padding: 20px;
     text-align: center;
     border: 1px solid #000;
