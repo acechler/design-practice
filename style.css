@@ -56,4 +56,7 @@ a {
 
 p{ color: #002A4E;}
 
-a{ background: #006BC6;}
+a{ 
+    background: #006BC6;
+    color: white;
+}
