@@ -1,3 +1,42 @@
+# Better Cards
+
+This shows an example on how to design better cards.
+The importance of how white-space plays a role in better ui.
+```css
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body{
+    background: #eeeeee;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, auto);
+}
+
+.card{
+    background: white;
+    padding: .2em;
+    width: 60%;
+}
+
+h1, p { margin: 0;}
+h1 { font-size: 1.4em;}
+p  { font-size: .8em; }
+
+/* Overwrite CSS */
+
+.secondary { padding: 1.5em;}
+
+.secondary h1{ margin-bottom: .5em;}
+
+.secondary p { line-height: 1.5em;}
+```
+
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,3 +56,5 @@
   </div>
 </body>
 </html>
+
+```
