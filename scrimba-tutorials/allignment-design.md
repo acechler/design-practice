@@ -1,3 +1,9 @@
+# Allignment Design
+
+This example shows the importance of allignment. You can change the oppacity inside the `.container` to see a vertical line that shoes a visualization.
+
+
+```css
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 html, body{
@@ -66,3 +72,26 @@ a.cta{
 h1 { margin-left: 0; }
 a.cta {transform:none; }
 a.logo { text-align: left; }
+```
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="logo">SomeCompany</a>
+    <h1>Identifying Strong Alignment</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat explicabo tempore expedita odio, aut ab eaque error, ipsa quod perspiciatis, perferendis ducimus assumenda et. Ratione quod consequuntur animi sed quas?</p>
+    <a href="#" class="cta">Get Aligned</a>
+  </div>
+</body>
+</html>
+
+```
