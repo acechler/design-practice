@@ -38,12 +38,14 @@ h1 {
     font-size: 2.5em;
     color: #002A4E;
 }
+/* Refer to Overwrites */
 p {
     color: rgba(0,0,0,.3);
     margin-top: .5em;
     font-size: .9em;
     font-weight: bold;
 }
+/* Refer to Overwrites */
 a {
     background: #CCCCCC;
     padding: .8em;
