@@ -233,4 +233,4 @@ p.desc {
 
 
 Some advice from the instructor
-- Always try to balance the white space.
+- Always balance the white space.
