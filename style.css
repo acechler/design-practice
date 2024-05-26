@@ -1,68 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
 html, body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat';
-    height: 100vh;
 }
-
 body{
-    background: #444E5C;
+    height: 100vh;
     display: grid;
-    border-left: 17px solid rgba(0,0,0,.2);
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    background: lightblue;
+    grid-gap: 2em;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
+.card{
+    background: white;
 }
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a.logo{
+span{
+    height: 100px;
     display: block;
-    padding-top: 1em;
-    font-weight: bold;
+    width: 100%;
+    background: #71A6B8;
+}
+
+p.date{
+    text-align: center;
+    font-size: .7em;
     text-transform: uppercase;
-    font-size: .8em;
 }
 
-h1 {
-    margin: 2em 0 1em .5em;
-    color: white;
-}
+h3{ margin: 0;}
 
-p{
-    color: #B3CEF2;
-    line-height: 1.4em;
+p.desc{
     font-size: .9em;
 }
 
-a.cta{
-    display: inline-block;
-    background: #5099FF;
-    padding: .8em 1.7em;
-    font-weight: bold;
-    border-radius: 2em;
-    transform: translateX(50%);
-    margin-top: 1.5em;
+/* 
+   Use the following properties
+   to fix the alignment and white
+   space issues on the rulesets
+   below this comment.
+   
+   margin, padding, text-align
+   
+*/
+
+body{
+    text-align: center;
 }
-
-
-/* Show Column */
-
-/* If you change the oppacity from 0 to 1, you will see a column line on the left of the page. */
-.container {
-    border-left: 1px solid rgba(255, 255, 255, 1);
+.content{
+    padding: 1em;
 }
-
-
-/* Improvements */
-
-h1 { margin-left: 0; }
-a.cta {transform:none; }
-a.logo { text-align: left; }
+p.date{
+    margin: 0;
+}
+h3{
+    margin: .5em;
+}
+p.desc{
+    margin: 1em;
+}
