@@ -19,7 +19,8 @@ header::after {
     content: "";
     position: absolute;
     z-index: -1;
-    background: url('asset1.jpg');
+    /* Remove #b0cee9 if you have an image. */
+    background: url('asset1.jpg') #b0cee9;
     background-position: 0% 20%;
     top: 0;
     left: 0;
@@ -53,4 +54,6 @@ a {
 
 /* Overwrites */
 
+p{ color: #002A4E;}
 
+a{ background: #006BC6;}
