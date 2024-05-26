@@ -44,17 +44,15 @@ p.desc{
 */
 
 body{
-    text-align: center;
+    padding: 2em;
 }
 .content{
     padding: 1em;
 }
 p.date{
-    margin: 0;
+    text-align: left;
 }
-h3{
-    margin: .5em;
-}
+
 p.desc{
-    margin: 1em;
+    margin-bottom: 0;
 }
