@@ -53,21 +53,26 @@ p {
 
 
 h1 {
-    
+    font-size: 3em;
 }
 
 .form-container {
-    
+    background: #6900F3;
 }
 
 label {
-    
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 input[type=submit] {
-    
+    font-size: 1em;
+    background: #FFED8C;
+    color: #5801CB;
+    border: none;
+    font-weight: bold;
 }
 
 p {
-    
+    color: #CAA2FF;
 }
