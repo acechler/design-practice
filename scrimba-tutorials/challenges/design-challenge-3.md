@@ -259,6 +259,34 @@ input[type=submit] {
 
 ### Third Solution
 ```css
+body {
+    background: white;
+    color: #1C2022;
+}
+
+.container {
+    border-left: .7em  solid #FF01FF;
+}
+
+p {
+    color: #2B3337;
+}
+
+input[type=text], textarea {
+    background: white;
+    border-bottom: 1px solid #506671;
+    color: #2B3337;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid #FF01FF;
+}
+
+input[type=submit] {
+    background: #FF01FF;
+}
+
+
 
 ```
 
