@@ -198,9 +198,45 @@ input[type=submit] {
 
 ## Instructors Code
 
+### First Solution
+```css
+body {
+    background: #1C2022;
+}
+
+.container {
+    border-left: .7em  solid #FF01FF;
+}
+
+p {
+    color: #9D9D9D;
+}
+
+input[type=text], textarea {
+    background: #2B3337;
+    border-bottom: 1px solid #506671;
+    color: #9D9D9D;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-bottom: 1px solid #FF01FF;
+}
+
+input[type=submit] {
+    background: #FF01FF;
+}
+
+```
+### Second Solution
 ```css
 
 ```
+
+### Third Solution
+```css
+
+```
+
 
 ```html
 <!DOCTYPE html>
